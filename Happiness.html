@@ -9,16 +9,6 @@
 <title>Home</title>
 
 <style>
-img{
-margin-top: 0%;
-margin-left: 75% ;
-width:100px;
-
-}
-.Home{
-text-align: between;
-
-}
 
 
 
@@ -31,33 +21,48 @@ text-align: between;
 
 
 <body>
+<header class="flex items-center justify-between p-4 bg-[#555555] shadow">
 
-<header>
+    
+    <div class="flex items-center gap-40">
+        <img src="Lenguaje de marcas/happines-and-co-propuesta-04.png" class="w-20">
+        
+        <h1 class="text-xl font-Asenine text-[#ba007c]">
+            Happiness&Co
+        </h1>
+    </div>
 
-<div class="Home">
-<img src="Lenguaje de marcas/happines-and-co-propuesta-04.png" class="w-20">
-</div>
-
-<span class="fa-solid fa-house font-Asenine text-[#ba007c]"></span>
-<div class="Home">
-  <div class="relative inline-block">
-
-            <button onclick="toggleMenu()">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                     fill="none" 
-                     viewBox="0 0 24 24" 
-                     stroke-width="1.5" 
-                     stroke="currentColor" 
-                     class="w-8 h-8 text-[#ba007c]">
-
-                    <path stroke-linecap="round" 
-                          stroke-linejoin="round" 
-                          d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                </svg>
-            </button>
-      
-</div>
 </header>
+
+<nav class="bg-[#ba007c] p-3">
+
+    <ul class="flex justify-center gap-8 text-white font-Asenine">
+
+        <li><a href="#" class="hover:underline">Inicio</a></li>
+        <li><a href="#" class="hover:underline">Eventos</a></li>
+        <li><a href="#" class="hover:underline">Historial</a></li>
+        <li><a href="#" class="hover:underline">Sobre nosotros</a></li>
+        <li><a href="#" class="hover:underline">Fuentes</a></li>
+        <li><a href="#" class="hover:underline">Contacto</a></li>
+
+    </ul>
+
+</nav>
+<section class="relative">
+
+    
+    <img src="home-happiness.webp " class=" h-[400px] object-cover">
+
+    
+    <div class="absolute bottom-5 left-5 text-white">
+
+        <p class="text-lg">25 Marzo 2026</p>
+        <h2 class="text-3xl font-bold">Festival Happiness</h2>
+
+    </div>
+
+</section>
+
 
 <footer>
 
