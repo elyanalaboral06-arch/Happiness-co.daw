@@ -14,13 +14,17 @@
 
 
 
+
+
 </style>
 
 
 </head>
 
 
-<body>
+<body class="m-0 p-0 bg-[#555555]">
+
+
 <header class="flex items-center justify-between p-4 bg-[#555555] shadow">
 
     
@@ -36,7 +40,7 @@
 
 <nav class="bg-[#ba007c] p-3">
 
-    <ul class="flex justify-center gap-8 text-white font-Asenine">
+    <ul class="flex justify-center gap-8 text-[#555555] font-Asenine">
 
         <li><a href="#" class="hover:underline">Inicio</a></li>
         <li><a href="#" class="hover:underline">Eventos</a></li>
@@ -50,24 +54,104 @@
 </nav>
 <section class="relative">
 
-    
-    <img src="home-happiness.webp " class=" h-[400px] object-cover">
+    <!-- EVENTO ESPECIAL (FOTO EN GRANDE)-->
+
+    <img src="Lenguaje de marcas/home-happiness.webp" class=" h-[400px] w-full object-cover">
 
     
-    <div class="absolute bottom-5 left-5 text-white">
+    <div class="absolute bottom-5 left-5">
 
-        <p class="text-lg">25 Marzo 2026</p>
-        <h2 class="text-3xl font-bold">Festival Happiness</h2>
+        <p class="text-lg font-Asenine text-[#ba007c]">15-06-2026</p>
+        <h2 class="text-3xl font-Asenine text-[#ba007c]">Festival Happiness</h2>
+
+    </div>
+
+</section>
+<section class="p-6 bg-[#555555] p-6 max-w-6xl mx-auto">
+
+    <div class="grid grid-cols-5 gap-4">
+
+    
+        <div class="col-span-3">
+
+            <h2 class="text-2xl font-Asenine mb-4 text-[#ba007c]">
+                Próximos eventos
+            </h2>
+
+            <div class="grid grid-cols-3 gap-6 font-Asenine">
+                <!-- EVENTO 1 -->
+                <div class="bg-[#ba007c] shadow rounded overflow-hidden">
+                    <img src="Lenguaje de marcas/aluminum-stage-truss.webp" class="w-full h-20 object-cover">
+                    <div class="p-3">
+                        <p class="text-sm text-[#555555]">25-06-2026</p>
+                        <h3>Concierto Primavera</h3>
+                        <p class="text-sm">Disfruta de música en vivo.</p>
+                        <a href="#" class="text-[#555555] text-sm">Ver más</a>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+        <!-- DERECHA: LATERAL -->
+        <div>
+
+            <h2 class="text-xl font-Asenine mb-4 text-[#ba007c] col-span-2">
+                Recomendados
+            </h2>
+
+            <!-- RECOMENDADO 1 -->
+            <div class=" shadow rounded overflow-hidden mb-4 bg-[#ff7b00]">
+                <img src="Lenguaje de marcas/Poble-exposicion.webp" class="w-full h-20 object-cover rounded">
+                
+                <div>
+                    <p class="text-xs font-Asenine text-[#555555]"> 05-06-2026</p>
+                    <h3 class="text-sm font-Asenine">Exposición de arte</h3>
+                    <a href="#" class="text-[#ba007c] text-xs">Ver más</a>
+                </div>
+            </div>
+
+            <!-- RECOMENDADO 2 -->
+            <div class="shadow rounded overflow-hidden mb-4 text-[#555555] font-Asenine bg-[#009bdb]">
+                <img src="Lenguaje de marcas/conciertoairelibre.avif" class="w-full h-20 object-cover rounded">
+                
+                <div>
+                    <p class="text-xs ">28-07-2026</p>
+                    <h3 class="text-sm ">Cine al aire libre</h3>
+                    <a href="#" class="text-[#ba007c] text-xs">Ver más</a>
+                </div>
+            </div>
+
+        </div>
 
     </div>
 
 </section>
 
 
-<footer>
 
+<footer class="bg-[#ba007c] text-[#555555] mt-10">
 
+    <div class="max-w-6xl mx-auto p-6 flex flex-col items-center gap-4">
 
+        <!-- TEXTO -->
+        <p class="text-sm">
+            © 2026 Happiness & Co - Todos los derechos reservados
+        </p>
+
+        <!-- REDES -->
+        <div class="flex gap-6 text-xl">
+
+            <i class="fa-brands fa-facebook cursor-pointer"></i>
+            <i class="fa-brands fa-instagram cursor-pointer"></i>
+            <i class="fa-brands fa-twitter cursor-pointer"></i>
+
+        </div>
+
+    </div>
 
 </footer>
 
