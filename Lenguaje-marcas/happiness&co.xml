@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<item>
+<title>http://127.0.0.1:3000/Happiness.html?serverWindowId=18212937-d43e-45d2-945e-0dd653e75ad3</title>
+<link>Happiness.html</link>
+<description>Evento musical en vivo</description>
+<pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Exposición de arte</title>
+<link>http://127.0.0.1:3000/Happiness.html?serverWindowId=18212937-d43e-45d2-945e-0dd653e75ad3l</link>
+<description>Arte moderno</description>
+<pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Cine al aire libre</title>
+<link>http://127.0.0.1:3000/Happiness.html?serverWindowId=18212937-d43e-45d2-945e-0dd653e75ad3</link>
+<description>Disfruta de las mejores películas actuales</description>
+<pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Concierto Primavera</title>
+<link>http://127.0.0.1:3000/Happiness.html?serverWindowId=18212937-d43e-45d2-945e-0dd653e75ad3</link>
+<description>Concierto tipo orquesta al aire libre</description>
+<pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Llegada del año nuevo</title>
+<link>http://127.0.0.1:3000/Happiness.html?serverWindowId=18212937-d43e-45d2-945e-0dd653e75ad3</link>
+<description>Fiesta para dar la bienvenida al nuevo año</description>
+<pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Conferencia de bienestar</title>
+<link>http://127.0.0.1:3000/Happiness.html?serverWindowId=18212937-d43e-45d2-945e-0dd653e75ad3</link>
+<description>Actualizaciones sobre los avances de la medicina en investigación</description>
+<pubDate>Mon, 12 Jan 2026 00:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Exposición fotográfica</title>
+<link>http://127.0.0.1:3000/Happiness.html?serverWindowId=18212937-d43e-45d2-945e-0dd653e75ad3</link>
+<description>Exposición variada creada por artistas jóvenes</description>
+<pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
+</item>
+
+<item>
+<title>Estreno de película</title>
+<link>http://127.0.0.1:3000/Happiness.html?serverWindowId=18212937-d43e-45d2-945e-0dd653e75ad3</link>
+<description>Estreno destacado del mes</description>
+<pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
+</item>
+
+
+</channel>
+</rss>
